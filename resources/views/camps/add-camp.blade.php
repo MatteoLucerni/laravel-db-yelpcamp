@@ -5,7 +5,7 @@
         <h1 class="mb-5">
             Add New Campground
         </h1>
-        <form action="search.html" class="w-100">
+        <form action="{{ route('index') }}" class="w-100">
             <div class="mb-3">
                 <label for="camp-name" class="form-label">Campground Name</label>
                 <input type="text" class="form-control" id="camp-name" placeholder="Seven Sisters Waterfall">
@@ -22,7 +22,9 @@
                 <label for="camp-price" class="form-label">Description</label>
                 <textarea class="form-control" name="" id="camp-desc" cols="20" rows="8">A very beautiful experience!</textarea>
             </div>
-            <button type="submit" id="submit-camp" class="btn">Add Campground</button>
+            <button type="submit" onclick="addNewCamp()" id="submit-camp" class="btn">Add Campground</button>
         </form>
     </main>
+
+    <script src="{{ asset('scripts/add-camp.js') }}"></script>
 @endsection
