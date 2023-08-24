@@ -50,7 +50,7 @@
                                     </li>
                                 </ul>
                                 <!-- button -->
-                                <a href="search.html" class="btn">
+                                <a href="{{ route('index') }}" class="btn">
                                     View Campgrounds
                                 </a>
                             </div>
