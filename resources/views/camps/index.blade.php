@@ -29,7 +29,7 @@
                     </div>
                     <button id="searchButton" class="btn">Search</button>
                 </div>
-                <a href="addCamp.html" class="text-gray">Or add your own campground</a>
+                <a href="{{ route('add-camp') }}" class="text-gray">Or add your own campground</a>
             </div>
         </div>
     </section>
