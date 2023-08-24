@@ -1,13 +1,24 @@
+@use "../vars" as *;
 #hero {
+    .card {
+        background-color: $bg-main;
+    }
+
     .input-group {
         height: 70px;
 
         span {
-            background-color: #fff;
+            background-color: white;
         }
     }
 
     .card .box {
         max-width: 500px;
+    }
+
+    button.btn {
+        background-color: black;
+        color: white;
+        padding: 20px 20px;
     }
 }
