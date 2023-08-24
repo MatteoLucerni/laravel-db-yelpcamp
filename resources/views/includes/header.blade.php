@@ -1,7 +1,7 @@
 <header class="py-4">
     <div class="navbar navbar-expand-lg">
         <a class="navbar-brand pt-0">
-            <img src="Assets/Logo.svg" alt="YelpCamp Logo">
+            <img src="{{ asset('Assets/Logo.svg') }}" alt="YelpCamp Logo">
         </a>
         <button class="navbar-toggler border-0 bg-main py-2" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
