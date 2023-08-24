@@ -4,7 +4,12 @@
 @include('includes.head')
 
 <body>
-    <h1>ciaso</h1>
+    @yield('alert')
+    <div class="container">
+        @include('includes.header')
+        @yield('main-content')
+        @include('includes.footer')
+    </div>
 </body>
 
 </html>
