@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/camp-list', function () {
     return view('camps.index');
 })->name('index');
+
+Route::get('/camp-list/add-camp', function () {
+    return view('camps.add-camp');
+})->name('add-camp');
