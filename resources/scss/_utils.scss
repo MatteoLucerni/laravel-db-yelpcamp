@@ -1,0 +1,28 @@
+@use "vars" as *;
+
+.debug {
+    border: 2px dashed black;
+}
+
+a.btn {
+    padding: 20px 20px;
+    background-color: black;
+    color: white;
+}
+
+a.btn:hover {
+    background-color: black;
+    color: lightgray;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.bg-main {
+    background-color: $bg-main;
+}
+
+.text-gray {
+    color: gray;
+}

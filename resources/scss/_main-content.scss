@@ -1,0 +1,15 @@
+@use "vars" as *;
+
+#main-content {
+    ul {
+        li {
+            line-height: 30px;
+        }
+
+        i.fa-circle-check {
+            color: $green;
+            font-size: 1.3rem;
+            vertical-align: middle;
+        }
+    }
+}

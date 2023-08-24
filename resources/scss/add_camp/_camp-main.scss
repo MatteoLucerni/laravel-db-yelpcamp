@@ -1,0 +1,24 @@
+main {
+    form {
+        max-width: 600px;
+
+        input.form-control {
+            height: 60px;
+            background-color: rgb(240, 240, 240);
+            border: none;
+        }
+
+        textarea.form-control {
+            background-color: rgb(240, 240, 240);
+            border: none;
+        }
+
+        input.form-control::placeholder {
+            color: rgb(173, 173, 173);
+        }
+
+        button.btn {
+            width: 100%;
+        }
+    }
+}

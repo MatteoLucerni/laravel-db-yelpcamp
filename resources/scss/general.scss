@@ -1,0 +1,22 @@
+@use "vars" as *;
+
+* {
+    font-family: "Geologica", sans-serif;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background-color: $bg-main;
+}
+
+p,
+ul li {
+    color: gray;
+}
+
+img {
+    max-width: 100%;
+}
